@@ -2,7 +2,10 @@
 
 A modular C program that manages a phonebook using linked lists, CSV file I/O, and Makefile automation. Demonstrates dynamic memory management, structured programming, and Unix-based development workflows.
 
-# DEMO
+# Preview
+![Screenshot of a possible interaction with the program, showing its add, delete, list, and find functions] (https://drive.google.com/file/d/1HX-LR-CJq77oFFZmUSq_Ydj0s4xjyk78/view?usp=drive_link)
+
+# Demo
 [ Click here to view live demo ](https://drive.google.com/file/d/1ttjMMpMkDX-9UKdf4ZZEvVAs5djgU8Fo/view?usp=drive_link)
 
 
@@ -13,3 +16,10 @@ A modular C program that manages a phonebook using linked lists, CSV file I/O, a
 - Handles invalid menu selections gracefully by prompting the user again.
 - Clear function, users can clear entire phonebook at once
 - Displays all contacts in a formatted table when prompted
+
+
+# Tech Stack
+- Language: C
+- Environment: Visual Studio Code
+- Execution: Compiled and run in the Terminal using GCC
+- Core Concepts: Linked Lists, Dynamic Memory Allocation, File I/O
