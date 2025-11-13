@@ -2,9 +2,6 @@
 
 A modular C program that manages a phonebook using linked lists, CSV file I/O, and Makefile automation. Demonstrates dynamic memory management, structured programming, and Unix-based development workflows.
 
-# Preview
-![alt-text](Screenshot 2025-11-12 at 5.46.00 PM.pdf)
-
 # Demo
 [ Click here to view live demo ](https://drive.google.com/file/d/1ttjMMpMkDX-9UKdf4ZZEvVAs5djgU8Fo/view?usp=drive_link)
 
