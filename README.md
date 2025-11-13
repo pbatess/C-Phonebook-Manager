@@ -20,3 +20,9 @@ A modular C program that manages a phonebook using linked lists, CSV file I/O, a
 - Environment: Visual Studio Code
 - Execution: Compiled and run in the Terminal using GCC
 - Core Concepts: Linked Lists, Dynamic Memory Allocation, File I/O
+
+# File Overview
+- mini5main.c: Contains the main() function and handles user interaction. Calls other functions for Add, Find, Delete, Clear, and List operations
+- mini5phone.c: Contains phonebook logic and functions. Handles linked list operations and file updates.
+- mini5phone.h: Header file declaring functions shared between mini5main.c and mini5phone.c.
+- Makefile: Automates the build process. Compiles each .c file into object files and links them into the final executable phonebook. 
