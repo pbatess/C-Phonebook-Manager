@@ -2,7 +2,7 @@
 #include <string.h>
 #include "mini5phone.h"
 
-// same as mini4 menu()
+// handles menu display and user input
 int menu()
 {
 	int selection;
@@ -15,7 +15,7 @@ int menu()
 	return selection;
 }
 
-// same as mini4 main(), possibly different input parameters
+// handles options for user input
 int main()
 {
 	int choice, record;
@@ -63,7 +63,7 @@ int main()
 				printf("Delete name:\n");
 				fgets(name, 49, stdin);
 				name[strlen(name) - 1] = '\0';
-
+				// removes newline character from string
 				int deleted = 0;
 				head = delete(head, name, &deleted);
 				if (!deleted)
